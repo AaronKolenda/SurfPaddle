@@ -1,0 +1,157 @@
+aside {
+	width: 40%;
+	display: inline-block;
+}
+
+.author {
+	color: rgb(0,105,182);
+	font-size: 12px;
+}
+
+.imggreyback {
+	background-color: rgb(92,104,111);
+}
+
+.date {
+	color: rgb(166,183,196);
+	text-decoration: underline;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.featured {
+	width: 70%;
+	height: 65px;
+	border-left: 2px solid rgb(211,211,211);
+	font-size: 30px;
+	color: rgb(0,105,182);
+	margin-top: 30px;
+	line-height: 65px;
+	padding-left: 20px;
+}
+
+h6 {
+	color: rgb(0,50,82);
+	text-align: center;
+	font-size: 16px;
+}
+
+.heading h1 {
+	color: white;
+	font-size: 100px;
+	margin: 100px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+header {
+background-image: url("file:///Users/Aay/code/SurfPaddle/header.jpg");
+background-repeat: no-repeat;
+height: 600px;
+}
+
+.iblogo {
+	display: inline-block;
+	padding: 20px 300px 0px 10px;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	bottom: 15px;
+}
+
+.ibaboutsearch {
+	display: inline-block;
+	padding: 20px 100px 0px 300px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	bottom: 15px;
+}
+
+.inlinep {
+display: inline;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.inlinep2 {
+display: inline;
+}
+
+.logo {
+		margin-left: 70px;
+}
+
+main {
+	display: inline-block;
+	width: 45%;
+	margin-left: 200px;
+
+}
+
+main img {
+	height: 25px;	
+	width: 25px;
+}
+
+main p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(92,104,111);
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+main a {
+	color: rgb(167,184,196);
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 58px;
+	margin-bottom: 0px;
+	color: rgb(0,50,83);
+	line-height: 63px;
+}
+
+.read {
+	display: inline-block;
+}
+
+.read p {
+		display: inline-block;
+
+	background-color: rgb(160,179,192);
+	color: white;
+}
+
+.share {
+	background-color: rgb(0,47,78);
+}
+
+.sharepost {
+	display: inline-block;
+}
+
+.sharepost p {
+		display: inline-block;
+
+	background-color: rgb(0,104,181);
+	color: white;
+}
+
+.wrap1 {
+	height: 0px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+.wrap3 {
+
+}
+
+
