@@ -107,59 +107,96 @@ margin-bottom: -50px;
 }
 
 .ib1 {
-	font-size: 20px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-1.jpg");
+	background: url("file:///Users/Aay/code/SurfPaddle/article-image-1.jpg");
 	position: relative;
+}
+
+.ib1color {
+	background: rgba(0,104,181,0.65);
+	width: 100%;
+	height: 100%;
 }
 
 .ib1span {
 	position: absolute;
-	bottom: 0px;
+	bottom: 13px;
+	left: 20px;
+	color: rgb(0,50,83);
 }
 
 .ib2 {
 	position: relative;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 	height: 330px;
 	width: 325px;
 	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-2.jpg");
 }
 
+.ib2color{
+	background: rgba(0,0,0,0.15);
+	width: 100%;
+	height: 100%;
+}
+
 .ib2span {
 	position: absolute;
-	bottom: 0px;
+	bottom: 13px;
+	left: 20px;
+	color: white;
 }
 
 .ib3 {
 	position: relative;
-	font-size: 20px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
 	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-3.jpg");
 }
 
+.ib3color {
+	background: rgba(0,104,181,0.65);
+	width: 100%;
+	height: 100%;
+}
+
 .ib3span {
 	position: absolute;
-	bottom: 0px;
+	bottom: 13px;
+	left: 20px;
+	padding-right: 30px;
+	color: rgb(0,50,83);
 }
 
 .ib4 {
 	position: relative;
-	font-size: 20px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
 	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-4.jpg");
 }
 
+.ib4color {
+	background: rgba(0,104,181,0.65);
+	width: 100%;
+	height: 100%;
+}
+
 .ib4span {
 	position: absolute;
-	bottom: 0px;
+	bottom: 13px;
+	left: 20px;
+	color: rgb(0,50,83);
 }
 
 .iblogo {
