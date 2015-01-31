@@ -11,7 +11,8 @@ aside {
 	width: 20%;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 200px;
+	margin-left: 75px;
+	margin-top: 50px;
 }
 
 .author {
@@ -84,6 +85,7 @@ header {
 background-image: url("file:///Users/Aay/code/SurfPaddle/header.jpg");
 background-repeat: no-repeat;
 height: 600px;
+margin-bottom: -50px;
 }
 
 .iblogo {
@@ -118,8 +120,8 @@ display: inline;
 
 main {
 	display: inline-block;
-	width: 40%;
-	margin-left: 100px;
+	width: 48%;
+	margin-left: 175px;
 }
 
 main img {
@@ -132,7 +134,7 @@ main p {
 	color: rgb(92,104,111);
 	line-height: 25px;
 	font-size: 16px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 main a {
