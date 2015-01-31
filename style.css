@@ -1,6 +1,17 @@
+.ad {
+	color: rgb(166,183,196);
+	text-decoration: underline;
+	font-size: 12px;
+	margin-left: 200px; 
+}
+
+
+
 aside {
-	width: 40%;
+	width: 20%;
 	display: inline-block;
+	vertical-align: top;
+	margin-left: 200px;
 }
 
 .author {
@@ -8,8 +19,15 @@ aside {
 	font-size: 12px;
 }
 
+.author2 {
+	color: rgb(0,105,182);
+}
+
 .imggreyback {
 	background-color: rgb(92,104,111);
+	height: 13px;
+	width: 13px;
+	padding: 10px;
 }
 
 .date {
@@ -17,6 +35,10 @@ aside {
 	text-decoration: underline;
 	font-size: 12px;
 	margin-left: 5px;
+}
+
+.delimiter {
+	color: rgb(251,251,251);
 }
 
 .featured {
@@ -28,6 +50,14 @@ aside {
 	margin-top: 30px;
 	line-height: 65px;
 	padding-left: 20px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 58px;
+	margin-bottom: 0px;
+	color: rgb(0,50,83);
+	line-height: 63px;
 }
 
 h6 {
@@ -88,9 +118,8 @@ display: inline;
 
 main {
 	display: inline-block;
-	width: 45%;
-	margin-left: 200px;
-
+	width: 40%;
+	margin-left: 100px;
 }
 
 main img {
@@ -109,38 +138,53 @@ main p {
 main a {
 	color: rgb(167,184,196);
 }
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 58px;
-	margin-bottom: 0px;
-	color: rgb(0,50,83);
-	line-height: 63px;
-}
+
 
 .read {
 	display: inline-block;
+	vertical-align: top;
+
 }
 
 .read p {
-		display: inline-block;
-
+	display: inline-block;
 	background-color: rgb(160,179,192);
 	color: white;
+	padding: 5px;
 }
 
 .share {
 	background-color: rgb(0,47,78);
+	height: 13px;
+	width: 13px;
+	padding: 10px;
+}
+
+.section {
+	display: inline-block;
 }
 
 .sharepost {
 	display: inline-block;
+	vertical-align: top;
+
 }
 
 .sharepost p {
-		display: inline-block;
-
+	display: inline-block;
 	background-color: rgb(0,104,181);
 	color: white;
+	padding: 5px;
+}
+
+.sidebar {
+	display: inline-block;
+}
+
+.social {
+	color: rgb(166,183,196);
+	font-size: 12px;
+	margin-left: 5px;
 }
 
 .wrap1 {
@@ -151,7 +195,19 @@ h2 {
 }
 
 .wrap3 {
+	font-size: 0px;
+	vertical-align: top;
 
 }
+
+.wrap2 {
+	vertical-align: top;
+}
+
+.container {
+	vertical-align: top;
+}
+
+
 
 
