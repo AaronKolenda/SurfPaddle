@@ -63,6 +63,8 @@ aside {
 
 footer h2 {
 	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -104,6 +106,62 @@ height: 600px;
 margin-bottom: -50px;
 }
 
+.ib1 {
+	font-size: 20px;
+	height: 330px;
+	width: 325px;
+	display: inline-block;
+	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-1.jpg");
+	position: relative;
+}
+
+.ib1span {
+	position: absolute;
+	bottom: 0px;
+}
+
+.ib2 {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	height: 330px;
+	width: 325px;
+	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-2.jpg");
+}
+
+.ib2span {
+	position: absolute;
+	bottom: 0px;
+}
+
+.ib3 {
+	position: relative;
+	font-size: 20px;
+	height: 330px;
+	width: 325px;
+	display: inline-block;
+	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-3.jpg");
+}
+
+.ib3span {
+	position: absolute;
+	bottom: 0px;
+}
+
+.ib4 {
+	position: relative;
+	font-size: 20px;
+	height: 330px;
+	width: 325px;
+	display: inline-block;
+	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-4.jpg");
+}
+
+.ib4span {
+	position: absolute;
+	bottom: 0px;
+}
+
 .iblogo {
 	display: inline-block;
 	padding: 20px 300px 0px 10px;
@@ -121,9 +179,9 @@ margin-bottom: -50px;
 }
 
 .inlinep {
-display: inline;
-margin-right: 10px;
-margin-left: 10px;
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .inlinep2 {
@@ -155,6 +213,12 @@ main p {
 
 main a {
 	color: rgb(167,184,196);
+}
+
+.posts {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0px;
 }
 
 
