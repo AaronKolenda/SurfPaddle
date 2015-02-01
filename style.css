@@ -129,7 +129,7 @@ h6 {
 }
 
 header {
-background-image: url("file:///Users/Aay/code/SurfPaddle/header.jpg");
+background-image: url("header.jpg");
 background-repeat: no-repeat;
 height: 600px;
 margin-bottom: -50px;
@@ -141,7 +141,7 @@ margin-bottom: -50px;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
-	background: url("file:///Users/Aay/code/SurfPaddle/article-image-1.jpg");
+	background: url("article-image-1.jpg");
 	position: relative;
 }
 
@@ -165,7 +165,7 @@ margin-bottom: -50px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
 	width: 325px;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-2.jpg");
+	background-image: url("article-image-2.jpg");
 }
 
 .ib2color{
@@ -188,7 +188,7 @@ margin-bottom: -50px;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-3.jpg");
+	background-image: url("article-image-3.jpg");
 }
 
 .ib3color {
@@ -212,7 +212,7 @@ margin-bottom: -50px;
 	height: 330px;
 	width: 325px;
 	display: inline-block;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-4.jpg");
+	background-image: url("article-image-4.jpg");
 }
 
 .ib4color {
