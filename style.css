@@ -1,3 +1,8 @@
+a.footer-link {
+	width: 25%;
+	display: inline-block;
+}
+
 .ad {
 	color: rgb(166,183,196);
 	text-decoration: underline;
@@ -5,8 +10,6 @@
 	position: relative;
 	right: -202px;
 }
-
-
 
 aside {
 	width: 20%;
@@ -33,7 +36,7 @@ aside {
 }
 
 .bottomnav {
-	width: 99%;
+	width: 100%;
 	height: 100px;
 	background-color: rgb(0,50,83);
 	padding-right: 5px;
@@ -77,7 +80,7 @@ aside {
 	width: 70%;
 	height: 65px;
 	border-left: 2px solid rgb(211,211,211);
-	font-size: 27px;
+	font-size: 24px;
 	color: rgb(0,105,182);
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -93,7 +96,7 @@ footer h2 {
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 62px;
+	font-size: 58px;
 	margin-bottom: 0px;
 	color: rgb(0,50,83);
 	line-height: 68px;
@@ -133,15 +136,17 @@ background-image: url("header.jpg");
 background-repeat: no-repeat;
 height: 600px;
 margin-bottom: -50px;
+width: 100%;
 }
 
 .ib1 {
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
 	background: url("article-image-1.jpg");
+	background-size: cover;
 	position: relative;
 }
 
@@ -164,8 +169,9 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	background-image: url("article-image-2.jpg");
+	background-size: cover;
 }
 
 .ib2color{
@@ -186,9 +192,10 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
 	background-image: url("article-image-3.jpg");
+	background-size: cover;
 }
 
 .ib3color {
@@ -210,9 +217,10 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
 	background-image: url("article-image-4.jpg");
+	background-size: cover;
 }
 
 .ib4color {
@@ -293,7 +301,7 @@ main a {
 }
 
 .posts {
-	width: 96%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 0px;
