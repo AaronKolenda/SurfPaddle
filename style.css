@@ -134,6 +134,7 @@ h6 {
 header {
 background-image: url("header.jpg");
 background-repeat: no-repeat;
+background-size: cover;
 height: 600px;
 margin-bottom: -50px;
 width: 100%;
@@ -395,6 +396,7 @@ section a {
 
 .wrap2 {
 	vertical-align: top;
+	margin-top: 75px;
 	border-bottom: 1px solid rgb(224,231,234)
 }
 
