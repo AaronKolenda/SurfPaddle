@@ -1,12 +1,7 @@
-.ad {
-	color: rgb(166,183,196);
-	text-decoration: underline;
-	font-size: 12px;
-	position: relative;
-	right: -202px;
+a.footer-link {
+	width: 25%;
+	display: inline-block;
 }
-
-
 
 aside {
 	width: 20%;
@@ -14,6 +9,73 @@ aside {
 	vertical-align: top;
 	margin-left: 75px;
 	margin-top: 78px;
+}
+
+footer h2 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 58px;
+	margin-bottom: 0px;
+	color: rgb(0,50,83);
+	line-height: 68px;
+	font-weight: normal;
+}
+
+h5 {
+	margin-bottom: 6px;
+}
+
+h6 {
+	color: rgb(0,50,82);
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: -10px;
+}
+
+header {
+	background-image: url("header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	margin-bottom: -50px;
+	width: 100%;
+}
+
+main {
+	display: inline-block;
+	width: 45%;
+	margin-left: 175px;
+}
+
+main img {
+	height: 25px;	
+	width: 25px;
+}
+
+main p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(92,104,111);
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+main a {
+	color: rgb(167,184,196);
+}
+
+.ad {
+	color: rgb(166,183,196);
+	text-decoration: underline;
+	font-size: 12px;
+	position: relative;
+	right: -202px;
 }
 
 .author {
@@ -33,7 +95,7 @@ aside {
 }
 
 .bottomnav {
-	width: 99%;
+	width: 100%;
 	height: 100px;
 	background-color: rgb(0,50,83);
 	padding-right: 5px;
@@ -55,13 +117,6 @@ aside {
 	bottom: 10px;
 }
 
-.imggreyback {
-	background-color: rgb(92,104,111);
-	height: 15px;
-	width: 15px;
-	padding: 9px;
-}
-
 .date {
 	color: rgb(166,183,196);
 	text-decoration: underline;
@@ -77,7 +132,7 @@ aside {
 	width: 70%;
 	height: 65px;
 	border-left: 2px solid rgb(211,211,211);
-	font-size: 27px;
+	font-size: 24px;
 	color: rgb(0,105,182);
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -85,31 +140,17 @@ aside {
 	padding-left: 20px;
 }
 
-footer h2 {
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+.imggreyback {
+	background-color: rgb(92,104,111);
+	height: 15px;
+	width: 15px;
+	padding: 9px;
 }
 
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 62px;
-	margin-bottom: 0px;
-	color: rgb(0,50,83);
-	line-height: 68px;
-	font-weight: normal;
-}
-
-h5 {
-	margin-bottom: 6px;
-}
-
-h6 {
-	color: rgb(0,50,82);
-	text-align: center;
-	font-size: 16px;
-	font-weight: normal;
-	margin-top: -10px;
+.heading {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .heading h1 {
@@ -118,30 +159,16 @@ h6 {
 	margin: 175px 0px 0px 0px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-
-}
-
-.heading {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-header {
-background-image: url("file:///Users/Aay/code/SurfPaddle/header.jpg");
-background-repeat: no-repeat;
-height: 600px;
-margin-bottom: -50px;
 }
 
 .ib1 {
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
-	background: url("file:///Users/Aay/code/SurfPaddle/article-image-1.jpg");
+	background: url("article-image-1.jpg");
+	background-size: cover;
 	position: relative;
 }
 
@@ -164,8 +191,9 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-2.jpg");
+	width: 100%;
+	background-image: url("article-image-2.jpg");
+	background-size: cover;
 }
 
 .ib2color{
@@ -186,9 +214,10 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-3.jpg");
+	background-image: url("article-image-3.jpg");
+	background-size: cover;
 }
 
 .ib3color {
@@ -210,9 +239,10 @@ margin-bottom: -50px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
 	height: 330px;
-	width: 325px;
+	width: 100%;
 	display: inline-block;
-	background-image: url("file:///Users/Aay/code/SurfPaddle/article-image-4.jpg");
+	background-image: url("article-image-4.jpg");
+	background-size: cover;
 }
 
 .ib4color {
@@ -244,10 +274,17 @@ margin-bottom: -50px;
 	bottom: 15px;
 }
 
+.ibaboutsearch a {
+	text-decoration: none;
+}
+
 .inlinep {
 	display: inline;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+.inlinep a {
 	color: rgb(0,50,82);
 }
 
@@ -260,31 +297,10 @@ margin-bottom: -50px;
 		margin-left: 70px;
 }
 
-main {
-	display: inline-block;
-	width: 45%;
-	margin-left: 175px;
-}
 
-main img {
-	height: 25px;	
-	width: 25px;
-}
-
-main p {
-	font-family: 'Open Sans', sans-serif;
-	color: rgb(92,104,111);
-	line-height: 25px;
-	font-size: 16px;
-	margin-top: 10px;
-}
-
-main a {
-	color: rgb(167,184,196);
-}
 
 .posts {
-	width: 96%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 0px;
@@ -353,10 +369,14 @@ section a {
 }
 
 .social {
-	color: rgb(178,193,204);
 	font-size: 14px;
 	text-align: center;
 	margin-bottom: 50px;
+}
+
+.social a {
+	color: rgb(178,193,204);
+	text-decoration: none;
 }
 
 .wrap1 {
@@ -374,6 +394,7 @@ section a {
 
 .wrap2 {
 	vertical-align: top;
+	margin-top: 75px;
 	border-bottom: 1px solid rgb(224,231,234)
 }
 
@@ -401,6 +422,3 @@ section a {
 	margin-bottom: 40px;
 	margin-top: 10px;
 }
-
-
-
