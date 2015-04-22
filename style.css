@@ -3,20 +3,79 @@ a.footer-link {
 	display: inline-block;
 }
 
-.ad {
-	color: rgb(166,183,196);
-	text-decoration: underline;
-	font-size: 12px;
-	position: relative;
-	right: -202px;
-}
-
 aside {
 	width: 20%;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 75px;
 	margin-top: 78px;
+}
+
+footer h2 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 58px;
+	margin-bottom: 0px;
+	color: rgb(0,50,83);
+	line-height: 68px;
+	font-weight: normal;
+}
+
+h5 {
+	margin-bottom: 6px;
+}
+
+h6 {
+	color: rgb(0,50,82);
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: -10px;
+}
+
+header {
+	background-image: url("header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	margin-bottom: -50px;
+	width: 100%;
+}
+
+main {
+	display: inline-block;
+	width: 45%;
+	margin-left: 175px;
+}
+
+main img {
+	height: 25px;	
+	width: 25px;
+}
+
+main p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(92,104,111);
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+main a {
+	color: rgb(167,184,196);
+}
+
+.ad {
+	color: rgb(166,183,196);
+	text-decoration: underline;
+	font-size: 12px;
+	position: relative;
+	right: -202px;
 }
 
 .author {
@@ -58,13 +117,6 @@ aside {
 	bottom: 10px;
 }
 
-.imggreyback {
-	background-color: rgb(92,104,111);
-	height: 15px;
-	width: 15px;
-	padding: 9px;
-}
-
 .date {
 	color: rgb(166,183,196);
 	text-decoration: underline;
@@ -88,31 +140,17 @@ aside {
 	padding-left: 20px;
 }
 
-footer h2 {
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+.imggreyback {
+	background-color: rgb(92,104,111);
+	height: 15px;
+	width: 15px;
+	padding: 9px;
 }
 
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 58px;
-	margin-bottom: 0px;
-	color: rgb(0,50,83);
-	line-height: 68px;
-	font-weight: normal;
-}
-
-h5 {
-	margin-bottom: 6px;
-}
-
-h6 {
-	color: rgb(0,50,82);
-	text-align: center;
-	font-size: 16px;
-	font-weight: normal;
-	margin-top: -10px;
+.heading {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .heading h1 {
@@ -121,23 +159,6 @@ h6 {
 	margin: 175px 0px 0px 0px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-
-}
-
-.heading {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-header {
-background-image: url("header.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 600px;
-margin-bottom: -50px;
-width: 100%;
 }
 
 .ib1 {
@@ -267,8 +288,6 @@ width: 100%;
 	color: rgb(0,50,82);
 }
 
-
-
 .inlinep2 {
 	display: inline;
 	color: rgb(0,50,82);
@@ -278,28 +297,7 @@ width: 100%;
 		margin-left: 70px;
 }
 
-main {
-	display: inline-block;
-	width: 45%;
-	margin-left: 175px;
-}
 
-main img {
-	height: 25px;	
-	width: 25px;
-}
-
-main p {
-	font-family: 'Open Sans', sans-serif;
-	color: rgb(92,104,111);
-	line-height: 25px;
-	font-size: 16px;
-	margin-top: 10px;
-}
-
-main a {
-	color: rgb(167,184,196);
-}
 
 .posts {
 	width: 100%;
